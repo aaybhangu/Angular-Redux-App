@@ -3,7 +3,7 @@
     <div class="col-sm">
       <div class="container">
         <div>{{ title }}</div>
-        <p>counter: {{ counter | async }}</p>
+        <p>counter: {{ counter$ | async }}</p>
         <button class="btn btn-primary" (click)="increment()">Increment</button>
         <div class="row">
           <app-create-todo></app-create-todo>
